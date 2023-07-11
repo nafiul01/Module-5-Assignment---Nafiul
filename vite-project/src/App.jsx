@@ -1,5 +1,5 @@
 import Header from './component/Header';
-import Body from './component/Body';
+import Content from './component/Content';
 import Footer from './component/Footer';
 
 
@@ -7,8 +7,8 @@ function App() {
 
   return (
     <div>
-      <Header/>
-      <Body/>
+      <Header title="Welcome to React App"/>
+      <Content/>
       <Footer/>
     </div>
   )

@@ -1,9 +1,9 @@
 
 
-const Header = () =>{
+const Header = (props) =>{
     return(
         <div>
-        <p><b>Header:</b> Welcome to React App</p>
+        <p><b>Header:</b>{props.title}</p>
         </div>
     )
 }
